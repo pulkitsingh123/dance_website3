@@ -1,0 +1,64 @@
+doctype html
+html
+  head
+    title Alex Dance Academy 
+    style
+      include ../static/style.css
+  body
+    nav#navbar 
+        ul
+            div#logo 
+                img(src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQR8mhGf4F31qtMomNniQMtlQqb847MPg6GPQ&usqp=CAU")
+                | ADA
+            li #[a(href="/") Home]
+            li #[a(href="/") About]
+            li #[a(href="/") Services]
+            li #[a(href="/") Class Info]
+            li #[a(href="/") Contact Us]
+
+    section#introSection 
+         div Welcome to Alex's Dance Academy 
+         div.small Eat Learn Dance Repeat 
+    
+    section#MissionSection 
+        h2 Our Mission
+        div.card 
+            h3 Dance Perfection
+            div.card-box 
+                div.card-img 
+                    img(src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGWGBI1n9OnwlEp98MHWl2Q9TbiZDuOwXfkg&usqp=CAU")
+                    div.card-content 
+                        p This is the best dance academy of the universe
+        div.card 
+            h3 Dance the way you like
+            div.card-box 
+                div.card-img 
+                    img(src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMJegrlIRI0RHRcdwlAUT-nJUJbGX_lgEbpg&usqp=CAU")
+                    div.card-content 
+                        p This is the best dance academy of the universe
+        div.card 
+            h3 Expert Teaching
+            div.card-box 
+                div.card-img 
+                    img(src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfu4vNg9p6cLHIvTccjxlVkirRCJK1L8XVLA&usqp=CAU")
+                    div.card-content 
+                        p This is the best dance academy of the universe 
+
+
+    section#sponsersSection 
+         h2 Our Sponsors
+         div#sponsers 
+            img(src="https://cdn.pixabay.com/photo/2013/02/12/09/07/microsoft-80660_640.png", alt="Sponser Image" , class="spImage")
+            img(src="https://cdn.pixabay.com/photo/2021/05/24/09/15/google-logo-6278331_1280.png", alt="Sponser Image" , class="spImage")
+            img(src="https://cdn.pixabay.com/photo/2017/02/08/08/42/skype-2048156_640.png", alt="Sponser Image" , class="spImage")
+            img(src="https://cdn.pixabay.com/photo/2016/07/03/18/36/youtube-1495277_640.png", alt="Sponser Image" , class="spImage")
+            
+           
+    
+    footer#footer 
+        | Web Page created by Pulkit Singh Chouhan
+    script
+      include ../static/index.js 
+
+
+      

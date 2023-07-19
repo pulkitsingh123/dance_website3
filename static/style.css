@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&family=Delicious+Handrawn&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    
+}
+#logo{
+    display: flex;
+    color: rgb(219, 206, 22);
+    align-items: center;
+    /* flex-direction: column; */
+    font-size: 23px;
+    margin: 0px 14px;
+    margin-right: 40px;
+}
+#logo img{
+    height: 40px;
+    /* filter: invert(100%); */
+}
+#navbar{
+    /* background-color: aqua; */
+    padding: 13px 14px;
+    font-family: 'Delicious Handrawn', cursive;
+    /* background-color: #bd1414; */
+    background-color: #180132;
+    position: sticky;
+    top: 0px;
+}
+#navbar ul{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   /* justify-content: center; */
+}
+#navbar li{
+    list-style: none;
+}
+#navbar li a{
+   text-decoration: none;
+   padding: 7px 30px;
+   color: rgb(251, 252, 253);
+   font-size: 1.7rem;
+   font-weight: bold;
+}
+#navbar li a:hover{
+    color: rgb(235, 9, 9);
+}
+#introSection{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+height: 677px;
+/* background: center / cover no-repeat url("https://images.unsplash.com/photo-1570585703179-e124f01ae6cb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1032&q=80"); */
+background: center / cover no-repeat url("https://cdn.pixabay.com/photo/2013/11/03/08/05/cheers-204742_1280.jpg");
+/* background: center / cover no-repeat url("/static/bg1.jpg"); */
+border: 2px solid black;
+font-family: 'Delicious Handrawn', cursive;
+color: white;
+font-size: 34px;
+padding-bottom: 40px;
+}
+#introSection div.small{
+    font-size: 1.5rem;
+    padding: 4px;
+}
+#MissionSection{
+    /* height: 350px; */
+    height: 325px;
+    background-color: #360332;
+    color: white;
+    /* display: inline-block; */
+    width: 100%;
+    margin: auto;
+    font-family: 'Delicious Handrawn', cursive;
+}
+#MissionSection h2{ 
+    text-align: center;
+    padding-top: 12px;
+    font-size: 27px;
+    /* justify-content: center; */
+    
+ }
+.card{
+    display: inline-block;
+    border: 2px solid rgb(245, 241, 241);
+    border-radius: 10px;
+    width: 25%;
+    margin: 23px 34px;
+    height: 209px;
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+.card h3{
+    text-align: center;
+    margin: 12px ;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-img{
+    height: 100px;
+    padding: 0px 14px;
+}
+.card-img img{
+    height: 100px;
+    padding: 0px 14px;
+    margin-left: 81px;
+    /* margin: auto; */
+}
+.card-content{
+padding: 0px 24px;
+}
+.card-content p{
+font-size: 15px;
+}
+
+#sponsersSection{
+    height: 200px;
+    color: white;
+    background-color: rgb(30 27 27);
+    
+}
+#sponsersSection h2{
+    text-align: center;
+    padding-top: 12px;
+    font-family: 'Delicious Handrawn', cursive;
+}
+#sponsers{
+    height: 100px;
+    width: 100vh;
+    margin: auto;
+}
+.spImage{
+    height: 100px;
+    margin: 25px;
+}
+#footer{
+    display: flex;
+    color: white;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(8, 8, 8);
+    font-size: 23px;
+    font-family: 'Delicious Handrawn', cursive;
+}
+
+
+

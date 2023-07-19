@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&family=Delicious+Handrawn&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+h1{
+    /* text-align: center; */
+    padding-left: 500px;
+    margin: 12px 0px;
+    color: white;
+}
+.myForm{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    margin-left: 527px;
+    align-items: center;
+    width: 100%;
+}
+.myInput{
+    width: 40%;
+    padding: 9px;
+    margin: 8px;
+    font-size: 25px;
+    border: 2px solid purple;
+    border-radius: 19px;
+    outline: none;
+    font-family: 'Delicious Handrawn', cursive;
+}
+.btn{
+    padding: 9px;
+    font-size: 25px;
+    border: 2px solid purple;
+    border-radius: 19px;
+    background: rgb(52, 7, 82);
+    cursor: pointer;
+    color: white;
+    margin: 12px;
+    font-family: 'Delicious Handrawn', cursive;
+}
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 90vh;
+    justify-content: center;
+    font-family: 'Delicious Handrawn', cursive;
+    /* background-image: url("https://cdn.pixabay.com/photo/2015/11/22/19/04/crowd-1056764_1280.jpg"); */
+    background-image: url("https://cdn.pixabay.com/photo/2016/11/22/22/25/abs-1850926_960_720.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
